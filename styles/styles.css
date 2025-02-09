@@ -3,19 +3,74 @@ body{
     background-color: lightgreen;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 h1{
     grid-column-start: 2;
 }
 
-.intro{
+article{
+    background-color: aquamarine;
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(87, 145, 153);
+    border-radius: 10px;
+}
+
+button{
+    font-size:20px;
+    width:5em;
+    height: auto;
+}
+
+
+ul{
+    list-style: circle;
+    text-align:left;
+    margin-right:2px;
+}
+
+a{
+    width:5em;
+    height: auto;
+}
+
+
+/*this is where all the classes start. Expect some unreadable junk*/
+
+/*button classes*/
+.home{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.aboutme{
+    grid-row-start: 3;
+}
+
+/*article classes*/
+.about, .interests{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.intro, .important{
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
-.about{
-    grid-column-start: 3;
-    grid-row-start: 3;
+.expect{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.important{
+    grid-row-end: 4;
+}
+
+.interests{
+    grid-row-end:5;
 }
