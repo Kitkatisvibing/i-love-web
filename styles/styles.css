@@ -43,6 +43,11 @@ a{
     height: auto;
 }
 
+img{
+    height: 10em;
+    width: auto;
+}
+
 
 /*this is where all the classes start. Expect some unreadable junk*/
 
@@ -52,7 +57,7 @@ a{
     grid-row-start: 2;
 }
 
-.aboutme{
+.aboutme, .back{
     grid-row-start: 3;
 }
 
@@ -78,4 +83,10 @@ a{
 
 .interests{
     grid-row-end:5;
+}
+
+.transformers{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end:-1;
 }
