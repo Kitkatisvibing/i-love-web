@@ -43,3 +43,56 @@ It’s the UX that makes the difference
 Don’t forget abt older techniques
 
 Davebitter.com
+
+14-2-2025
+
+Killian Valkhof - Polypane
+
+browser voor developers
+zonder investeringen
+gratis voor studenten
+
+begonnen met microsoft frontpage en andere gratis programmas die niet meer bestaan
+affiliate marketing en banner ads
+14 jaar lang bedrijf websites bouwen voor anderen
+
+met de iphone kwam responsive design - nu 15 jaar geleden
+
+plugins libraries en andere tools gemaakt
+
+Elk project werdt complexer totdat browser kon
+
+Polypane: wat als je browser artboards had
+
+overzicht bespaarde uuren
+
+vanaf 2017 polypane gedeeld met andere, feedback zorgde voor meer ontwikkeling
+launch in 2019
+
+veel toegankelijkheids testen
+json viewer
+ondersteunt extensies
+browser in browser
+element inspector
+error messages (recent)
+	doorontwikkeling belangrijk
+
+Technieken:
+	Electron
+	React
+	heel veel Javascript
+	Communicatie (tussen delen van de applicatie)
+		React state
+		Inter Process Communication (ipc)
+		Message bus
+		Message ports
+		Chrome Devtools Protocol
+
+Side projects: 
+	https://superposition.design/
+	https://fixa11y.com/
+	https://polypane.cloud/
+	Polypane Go voor ipad
+Side projects zijn belangrijk voor oefenen + uitvinden wat leuk is + bekend worden + niet vast lopen in hoe je werkt
+
+https://polypane.app/
