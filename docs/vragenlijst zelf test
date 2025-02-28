@@ -13,7 +13,7 @@
 13. Ik weet hoe ik Liquid filters toe kan passen en waar ik kan vinden hoe die werken - 2
 14. Ik heb een nieuwe route gemaakt en nieuwe data meegegeven aan een Liquid view - 1
 15. Ik weet waar een foreach loop voor gebruikt wordt en pas het toe in een Liquid view om HTML te renderen - 1
-16. Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld - 2
+16. Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld - 0
 17. Ik heb een strategie voor debuggen in Liquid - 2
 18. Ik kan data fetchen uit een REST API - 3
 19. Ik snap het verschil tussen HTTP requests van de methodes GET en POST - 3
