@@ -1,0 +1,26 @@
+{
+  "name": "i-love-web",
+  "version": "2.0.0",
+  "description": "mijn i love web website :)",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitkatisvibing/i-love-web.git"
+  },
+  "author": "Kate Jadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kitkatisvibing/i-love-web/issues"
+  },
+  "homepage": "https://github.com/Kitkatisvibing/i-love-web#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
