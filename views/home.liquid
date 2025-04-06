@@ -15,7 +15,7 @@
         <p>Here's a secret: I don't actually know what i'm doing</p>
     </article>
 
-    <a href="pages/aboutme.html"  class="aboutme"><button type="button">Actual about me</button></a>
+    <a href="/about"  class="aboutme"><button type="button">Actual about me</button></a>
 
     <article class="about">
         <h2>This webpage is deeply unserious</h2>
@@ -28,5 +28,12 @@
         <h2>Just don't expect anything great</h2>
         <p>(or do. I can't stop you.)</p>
     </article>
+
+    <section>
+        <h2>mijn artikelen</h2>
+        {% for file in files %}
+            <a href="/{{ file |slice:0,-3 }}">{{ file |slice:0,-3 }}</a>
+        {% endfor %}
+    </section>
 </body>
 </html>
