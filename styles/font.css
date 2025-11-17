@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'best font';
+    src: url('../fonts/bestfont-Regular.otf') format('opentype');
+}
+
+.fonttest {
+    font-family: 'best font', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('opensans.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.absoluteunits{
+    font-size: 15mm;
+}
