@@ -19,3 +19,11 @@ body {
 .absoluteunits{
     font-size: 15mm;
 }
+
+.relativeunits{
+    font-size: 3em;
+}
+
+.viewportunits{
+    font-size: 3.5vw;
+}
